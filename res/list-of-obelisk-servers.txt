@@ -1,0 +1,8 @@
+# This is a list of known good obelisk servers to use, if you're ever in a hanging state,
+# check if the command $( sx fetch-last-height ) returns, if not, switch servers.
+# Round Robin style switching is provided in sx-roundrobin.sh if necessary, defaults to
+# changing the user who runs the script's sx.cfg. Below is the official server list.
+tcp://obelisk.bysh.me:9091
+tcp://obelisk.unsystem.net:9091
+tcp://obelisk.unsystem.net:8081
+tcp://ottrbutt.com:9091
